@@ -1,0 +1,288 @@
+
+
+header {
+  background-color:#0a4d2e86;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  font-size: 2.6em;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.menu a {
+  color: hsl(117, 92%, 75%);
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.extras {
+  text-align: center;
+  position: absolute;
+  bottom: 10;
+  left: 0;
+  width: 100%;
+  font-size:7px;
+  font-weight: bold;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #00ff62 0px 0px 20px;
+  color: #FFFFFF;
+
+}
+
+.container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  background: url('perth.mp4');
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family:sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  width: 50%;
+  display: flex;
+  text-align:left;
+  margin-left: 20px;
+}
+
+
+.h1 {
+  font-weight: bold;
+  background: linear-gradient(#0a4d2e, #69b493);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 80;
+  font-weight: 50%;
+  z-index: 100;
+
+}
+.h2 {
+  font-weight: bold;
+  background: linear-gradient(#69b493, #0a4d2e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 20;
+  font-weight: 50%;
+  z-index: 100;
+
+}
+
+video {
+  width: 100%;
+  height:100%;
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left:0;
+  object-fit:cover;
+}
+
+
+/*PAGINA SIGN UP*/
+
+.body2 {
+  background-image: url("grad.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.containersignup {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 0.2em;
+  color: #fff;
+  text-align: center;
+}
+
+.caja {
+  position: relative;
+  border:#0a4d2e
+
+}
+
+input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+
+.button {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 25px;
+}
+
+.button:active {
+  background-color: #ffffff;
+}
+  
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #bcff92;
+  font-size: 12px;
+}
+
+.titulo2{
+  font-size: 8rem;
+  color: #e4e4e4;
+  text-align: justify;
+  font: weight 900px;;
+  position:absolute;
+  padding-left: 60px;
+  line-height: 0.7;
+  bottom: 20%;
+}
+
+.dif {
+    mix-blend-mode: difference;
+    display: block;
+}
+
+/*PAGINA INFO*/
+.section1{
+  background-color: #6C8B5B; 
+  color: #fff;
+  padding: 100px;
+  background-image: linear-gradient(45deg, #6C8B5B, #3B5323), url('test.png');
+  background-size: auto;
+  background-blend-mode: overlay;
+}
+
+.section1 h2{
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.section1 p{
+  text-align: center;
+  font-weight: lighter;
+}
+
+.specs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spec{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.section2 {
+  background-color: #6C8B5B; 
+  color: #fff;
+  padding: 100px;
+  background-image: linear-gradient(45deg, #9FB6A2, #6C8B5B), url('test.png');
+  background-size:auto;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section2 h {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.section2 p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.section3 {
+  background-color: #6C8B5B; 
+  color: #fff;
+  padding: 100px;
+  background-image: linear-gradient(45deg, #3B5323, #1B2F0E), url('test.png');
+  background-size:auto;
+  background-blend-mode: overlay;
+}
+
+h3 {
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.mapacaja {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapa{
+  margin-right: 40px;
+}
+
+.extras3 {
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  font-size:7px;
+  font-weight: bold;
+  text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #00ff62 0px 0px 20px;
+  color: #FFFFFF;
+}
