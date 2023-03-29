@@ -241,13 +241,13 @@ input:valid ~ label {
 }
 
 .section2 h {
-  font-size: 5rem;
+  font-size: 500%;
   font-weight: bold;
   margin-right: 20px;
 }
 
 .section2 p {
-  font-size: 1.5rem;
+  font-size: 150%;
   font-weight: bold;
   margin-right: 20px;
 }
