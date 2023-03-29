@@ -112,7 +112,7 @@ video {
   position: absolute;
   top: 50%;
   left: 75%;
-  width: 400px;
+  width: 40%;
   padding: 40px;
   transform: translate(-50%, -50%);
   background: rgba(0,0,0,.5);
@@ -180,13 +180,13 @@ input:valid ~ label {
 }
 
 .titulo2{
-  font-size: 8rem;
+  font-size: 734%;
   color: #e4e4e4;
   text-align: justify;
   font: weight 900px;;
   position:absolute;
   padding-left: 60px;
-  line-height: 0.7;
+  line-height: 5%;
   bottom: 20%;
 }
 
