@@ -180,13 +180,13 @@ input:valid ~ label {
 }
 
 .titulo2{
-  font-size: 734%;
+  font-size: 8rem;
   color: #e4e4e4;
   text-align: justify;
   font: weight 900px;;
   position:absolute;
   padding-left: 60px;
-  line-height: 5%;
+  line-height: 0.7;
   bottom: 20%;
 }
 
